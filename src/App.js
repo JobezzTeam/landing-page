@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Presentation } from '../pages/index'
+import { Page } from './components/page'
+import { BrowserRouter, Route} from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <Presentation/>
-    </div>
+    <BrowserRouter>
+      <switch>
+        <Route exec path="/" component={Page}></Route>
+      </switch>
+    </BrowserRouter>
   );
 }
 
