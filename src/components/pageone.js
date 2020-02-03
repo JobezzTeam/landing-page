@@ -11,7 +11,7 @@ function PageOne() {
                    <h1>Texte à définir. Et iPhone aussi</h1>
                    <h2>Découvrez grâce à JoBizz une nouvelle façon d’intégrer le monde du travail.</h2>
                    <ButtonStart><p>Commencer</p></ButtonStart>
-                   <button><p>Test2</p></button>
+                   <ButtonAbout><p>Test2</p></ButtonAbout>
                 </ContainerText>
             </ContentContainer>
         </ContainerOne>
@@ -64,11 +64,41 @@ const ContainerText = styled.div`
 `
 
 const ButtonStart = styled.button`
-    width: 139.5px;
-    height: 40px;
+    width: 10%;
     box-shadow: 0 0 20px 0 #822eff;
-    background-image: linear-gradient(294deg, #bd11fa 99%, #46c2ff -20%);
+    background: linear-gradient(294deg, #bd11fa, #46c2ff);;
+    border-radius: 10px;
+    padding: 0.5%;
+    color: white;
+    margin-left: 1%;
+    outline: none;
+    font-family: Montserrat;
+    font-weight: bold;
+
+    :active {
+        background-color: white;
+        color: black;
+    }
 `
+
+const ButtonAbout = styled.button`
+    width: 10%;
+    box-shadow: 0 0 20px 0 #000;
+    border-radius: 10px;
+    padding: 0.5%
+    color: white;
+    margin-left: 1%;
+    outline: none;
+    font-family: Muli;
+    font-weight: bold;
+    font-size: 12.5px;
+
+    :active {
+        color: black;
+        background-color: white;
+    }
+`
+
 
 
 export{ PageOne }
