@@ -72,17 +72,28 @@ const Li = styled.li`
 `
 
 const LilStart = styled.li`
-    margin: auto 22px;
-    a {
-        width: 81px;
-        height: 28px;
-        border-radius: 4px;
-        border: solid 1px #ffffff;
-        :hover {
-            background-color: transparent;
-            border: 2px solid  #ff004f;
-            color: #ff004f;
-        }
+   margin: auto 22px;
+   a{
+    background-color: transparent;
+    border-radius: 18px;
+    height: 30px !important;
+    width: 137px !important;
+    cursor: pointer;
+    color: white;
+    transition: all .3s ease;
+    border: 2px solid white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    box-shadow: 0 0 4px 1px white;
+    :hover {
+        background-color: transparent;
+        border: 2px solid  #ff004f;
+        box-shadow: 0 0 4px 1px #ff004f;
+        color: #ff004f;
+    }
     } 
 `
 
