@@ -115,7 +115,7 @@ const Description = styled.h2`
     text-align: left;
     color: #66667e;
     margin-top: 27%;
-    right: 39.5%;
+    right: 10.5%;
 `
 
 export {PageFour}
