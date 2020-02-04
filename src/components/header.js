@@ -60,7 +60,7 @@ const Li = styled.li`
         cursor: pointer;
         font-size: 16px;
         text-decoration: none;
-        font-family: 'Helvetica Rounded LT Std Bold';
+        font-family: 'Montserrat', sans-serif;
         transition: all .3s ease;
         :hover {
             color: #ff004f;

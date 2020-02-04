@@ -2,6 +2,12 @@ import React from 'react';
 import styled from 'styled-components'
 import { Header } from './header'
 import { PageOne } from './pageone'
+import { PageTwo } from './pagetwo'
+import { PageThree } from './pagethree'
+import { PageFour } from './pagefour'
+// import { PageFive } from './pagefive'
+import { PageSeven } from './pageseven'
+import { Footer } from './footer'
 
 function Page() {
     return(
@@ -19,6 +25,12 @@ function Page() {
       <Body>
         <Header buttonStart={true}></Header>
         <PageOne></PageOne>
+        <PageTwo></PageTwo>
+        <PageThree></PageThree>
+        <PageFour></PageFour>
+        {/* <PageFive></PageFive> */}
+        <PageSeven></PageSeven>
+        <Footer></Footer>
       </Body>
     </section>
     )

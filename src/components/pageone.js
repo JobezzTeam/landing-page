@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components'
-import Grid from 'styled-components-grid';
 
 function PageOne() {
     return(
@@ -65,19 +64,18 @@ const ContainerText = styled.div`
 
 const ButtonStart = styled.button`
     width: 10%;
-    box-shadow: 0 0 20px 0 #822eff;
+    box-shadow: 0 0 20px 0 #bd11fa;
     background: linear-gradient(294deg, #bd11fa, #46c2ff);;
     border-radius: 10px;
     padding: 0.5%;
     color: white;
     margin-left: 1%;
     outline: none;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 
     :active {
-        background-color: white;
-        color: black;
+        background-color: #bd11fa;
     }
 `
 
@@ -89,7 +87,7 @@ const ButtonAbout = styled.button`
     color: white;
     margin-left: 1%;
     outline: none;
-    font-family: Muli;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 12.5px;
 
@@ -98,7 +96,5 @@ const ButtonAbout = styled.button`
         background-color: white;
     }
 `
-
-
 
 export{ PageOne }
