@@ -39,5 +39,6 @@ const Button = styled.button`
     position: absolute;
     font-weight: bold;
     text-align: center;
+    border-style: none;
 `
 export {PageThree}

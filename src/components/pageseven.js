@@ -60,6 +60,7 @@ const StartButton = styled.button`
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    border-style: none;
 `
 
 export {PageSeven}
