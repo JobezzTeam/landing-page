@@ -108,6 +108,7 @@ const FooterText = styled.div`
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
+  text-align: center;
   color: #ffffff;
   margin-bottom: 7px;
   }
