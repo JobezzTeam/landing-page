@@ -11,6 +11,7 @@ function PageFour() {
                     <Button>Nos fonctionnalités</Button>
                     <Title>Postulez de façon simple. Rapide.</Title>
                     <Description>Lorem mes couilles</Description>
+                    <ButtonStart><p>Commencer</p></ButtonStart>
                 </Row>
             </Container>
         </ContainerSection>
@@ -29,6 +30,26 @@ const Background = styled.img`
     position: absolute;
 `
 
+const ButtonStart = styled.button`
+    width: 10%;
+    box-shadow: 0 0 20px 0 #bd11fa;
+    background: linear-gradient(294deg,#bd11fa,#46c2ff);
+    border-radius: 10px;
+    padding: 0.5%;
+    color: white;
+    margin-left: 1%;
+    margin-top: 32%;
+    position: absolute;
+    outline: none;
+    font-weight: bold;
+    border-style: none;
+    margin-left: 36%;
+    font-size: 1em;
+
+    :active {
+        background-color: #bd11fa;
+    }
+`
 // const MbCard = styled.div`
 //     width: 275.5px;
 //     height: 489px;
