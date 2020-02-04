@@ -9,8 +9,11 @@ function PageFour() {
             <Container>
                 <Row style={{marginTop: '15%'}}>
                     <Button>Nos fonctionnalités</Button>
-                    <Title>Postulez de façon simple. Rapide.</Title>
-                    <Description>Lorem mes couilles</Description>
+                    <Title>Postulez de façon simple et rapide.</Title>
+                    <Description>
+                        Postulez à des annonces de recrutement dans un secteur proche de chez vous.
+                        <br></br>Pour postuler, vous n'aurez qu'à appuyer sur un bouton pour envoyer votre candidature.
+                        <br></br>L'ensemble des pins varireront selon le secteur d'activités du recruteur.</Description>
                     <ButtonStart><p>Commencer</p></ButtonStart>
                 </Row>
             </Container>
@@ -105,7 +108,7 @@ const Title = styled.h1`
     right: 25%;
 `
 
-const Description = styled.h1`
+const Description = styled.h2`
     font-size: 1em;
     position: absolute;
     font-weight: bold;

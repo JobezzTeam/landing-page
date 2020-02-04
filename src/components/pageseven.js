@@ -6,7 +6,7 @@ function PageSeven() {
         <Contain>
             <ContainPage>
                 <Title>N’attendez plus, JoBizz-ez !</Title>
-                <Description>Pour commencer à utiliser la plateforme, <br></br>vous allez devoir créer un compte utilisateur. </Description>
+                <Description>Pour commencer à utiliser la plateforme,<br></br>vous allez devoir créer un compte utilisateur.</Description>
             </ContainPage>
             <StartButton>Commencer</StartButton>
         </Contain>
@@ -47,6 +47,7 @@ const Description = styled.p`
     font-weight: 400;
     color: #66667e;
 `
+
 
 const StartButton = styled.button`
     width: 15%;

@@ -26,8 +26,8 @@ function Page() {
         <Header buttonStart={true}></Header>
         <PageOne></PageOne>
         <PageTwo></PageTwo>
-        <PageThree></PageThree>
-        <PageFour></PageFour>
+        {/*<PageThree></PageThree>*/}
+        <PageFour></PageFour>}
         {/* <PageFive></PageFive> */}
         <PageSeven></PageSeven>
         <Footer></Footer>

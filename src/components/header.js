@@ -13,9 +13,9 @@ function Header({buttonStart = true}) {
             </LogoJobezzContainer>
             <HeaderLink>
                 <Nav>
-                    <Li href='/home'><a>Home</a></Li>
-                    <Li><a>About</a></Li>
-                    <Li><a>Fonctionnalités</a></Li>
+                    <Li href='/home'><a>Acceuil</a></Li>
+                    <Li><a>À Propos</a></Li>
+                    <Li><a>Nos Fonctionnalités</a></Li>
                     <Li><a>Télécharger</a></Li>
                     {buttonStart && <LilStart><a>Commencer</a></LilStart>}
                 </Nav>

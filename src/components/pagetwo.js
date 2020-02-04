@@ -8,7 +8,7 @@ function PageTwo() {
             <ImageIphone src={require('./ImageIphone.png')}></ImageIphone>
             <ContainerText>
                 <h1>Qu’est ce que JoBizz ?</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur provident.</p>
+                <p>JoBizz vous aidera à trouver un emploi saisonnier et un extra. <br></br> La carte vous permet d'accéder à toutes les offres disponibles autour de chez vous et postulez facilement et rapidement.</p>
             </ContainerText>
         </ContainerOne>
     )

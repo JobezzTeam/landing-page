@@ -7,7 +7,7 @@ function PageOne() {
             <Background src={require('./Web1920–1.png')}/>
             <ContentContainer>
                 <ContainerText>
-                   <h1>Texte à définir. Et iPhone aussi</h1>
+                   <h1>Trouvez des emplois <br></br>facilement et proche de chez vous.</h1>
                    <h2>Découvrez grâce à JoBizz une nouvelle façon d’intégrer le monde du travail.</h2>
                 </ContainerText>
             </ContentContainer>
